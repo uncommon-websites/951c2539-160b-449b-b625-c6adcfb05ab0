@@ -26,20 +26,22 @@
 </script>
 
 <SecondaryHero
-	generating
-	title="Solving world hunger"
-	subtitle="one step at a time"
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
+	title="Gift-giving made effortless"
+	subtitle="One wishlist. Every store. Shared instantly."
+	imageSrc="/generated/image-a-diverse-group-of-young-adults-gathered.webp"
+	credibilityStats={[
+		{ value: "2M+", label: "Active users" },
+		{ value: "4.9★", label: "App Store rating" },
+		{ value: "#1", label: "Rated wishlist app" }
+	]}
 />
 
 <!-- Story Section -->
 <Story
-	generating
 	paragraphs={[
-		"We started in 2018 with a simple goal: make helpful tech that people actually need. While many chase profits, we chose to do things differently.",
-		"Beyond making good products, we care about doing the right thing, being kind to our planet, and making sure everyone can use what we build. That's our compass.",
-		"From day one, we've asked ourselves: 'Does this actually help people?' This question gets us through tough calls and shapes who we are. We're playing the long game here.",
-		"We think about how our work affects real people's lives. We build tech that brings people together, keeps your information safe, and treats everyone fairly. When we stick to these basics, good things happen."
+		"It started with a familiar problem—birthdays and holidays that came with stress instead of ease. Our founders, like many millennials and Gen Z shoppers, were juggling scattered screenshots, notes apps, and endless group chats just to figure out what to buy or ask for. Gift lists were last-minute and awkward, and people kept receiving the same presents because no one knew what had already been bought. It wasn't thoughtful—it was chaos.",
+		"That's why we built Listful. We wanted a better way to keep track of the things we love across all our favorite stores and make sharing them simple. So we created a wishlist you can build from any retailer, prioritize your picks with drag and drop, and share with a single link that updates in real time—without forcing anyone to download an app or make an account. Whether for kids' birthdays or wedding showers, Listful turns gift-giving into something smooth, smart, and surprisingly fun.",
+		"Today, over 2 million people use Listful to plan better gifts, skip the stress, and actually enjoy the moment. With a 4.9-star rating and thousands of glowing reviews, we're just getting started. Our goal? To become the go-to platform for the $500B global gift market—helping millions more skip the guesswork and give with confidence. After all, as one user put it, 'Listful made my birthday so much easier—every gift was exactly what I wanted.'"
 	]}
 />
 
