@@ -32,54 +32,67 @@
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Priya Mehta",
+			position: "Marketing Manager",
+			company: "Bay Area Parent",
 			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"Listful saved me hours planning my daughter's birthday party. Instead of juggling bookmarks across five different stores, I organized everything in one place and shared the link with family. No more duplicate gifts!",
+			image: "/generated/image-candid-environmental-portrait-of-priya-m.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "Marcus Thompson",
+			position: "UX Designer",
+			company: "Remote Dad",
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"Creating Christmas lists used to be such a headache. With Listful's price comparison, I found the best deals across retailers and saved over $200 last season. My wife and I can coordinate gifts without ruining surprises.",
+			image: "/generated/image-candid-environmental-portrait-of-marcus-.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Elena Rodriguez",
+			position: "Graduate Student",
+			company: "UCLA",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"Wedding registry chaos became organized bliss. Listful let me add items from Etsy, Target, and local boutiques all in one list. Guests loved how easy it was to browse and buy without creating accounts.",
+			image: "/generated/image-candid-environmental-portrait-of-elena-r.webp"
 		}
 	]}
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="Everything you need for gifting"
+	subtitle="Transform scattered gift ideas into organized, shareable wishlists that make giving effortless"
 	features={[
 		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+			title: "Add from any store",
+			description: "Copy and paste any product link from Amazon, Target, Etsy, or anywhere online to build your perfect wishlist.",
+			imageSrc: "/generated/image-a-young-adult-smiling-arranges-a-colorfu.webp"
 		},
 		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+			title: "Never duplicate gifts",
+			description: "Real-time purchase tracking shows what's been bought, eliminating awkward duplicate gifts and gift-giving anxiety.",
+			imageSrc: "/generated/image-a-group-of-friends-gathered-around-a-kit.webp"
 		},
 		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+			title: "Share without friction",
+			description: "Send your wishlist link to anyone and they can view and buy gifts without creating an account.",
+			imageSrc: "/generated/image-family-members-of-different-ages-sit-tog.webp"
+		},
+		{
+			title: "Compare prices automatically",
+			description: "See the best prices across retailers and save money on every gift with automatic price comparison.",
+			imageSrc: "/generated/image-two-people-compare-gift-items-by-holding.webp"
+		},
+		{
+			title: "Drag to prioritize",
+			description: "Easily reorder your wishlist by importance so gift-givers know exactly what you want most.",
+			imageSrc: "/generated/image-a-person-sits-cross-legged-on-a-cozy-rug.webp"
+		},
+		{
+			title: "Works everywhere",
+			description: "From Nike to local boutiques, add products from any website to create unified wishlists across all your favorite stores.",
+			imageSrc: "/generated/image-a-group-of-friends-and-family-gather-aro.webp"
 		}
 	]}
 />
