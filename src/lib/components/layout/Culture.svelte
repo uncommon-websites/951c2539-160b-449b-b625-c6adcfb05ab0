@@ -40,7 +40,7 @@
 	<div
 		class="section-py section-px container mx-auto grid gap-8 [--gap:--spacing(8)] [--radius:var(--radius-2xl)]"
 	>
-		<SectionHeader title="Our culture." subtitle="The values that guide everything we do" />
+		<SectionHeader title="How we work at Listful." subtitle="We're not just building a wishlist app—we're changing how people give and receive. Join a company that's redefining how people show they care." />
 
 		<div
 			class="grid gap-(--gap)"

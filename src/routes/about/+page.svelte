@@ -11,16 +11,20 @@
 	// Constants
 	const values = [
 		{
-			title: "Innovation",
-			description: "Constantly challenging the status quo to create better solutions."
+			title: "Build with empathy",
+			description: "Everything we design centers around delighting our users. From real-time updates to account-free sharing, we obsess over every detail that makes gift-giving simpler."
 		},
 		{
-			title: "Integrity",
-			description: "Building trust through transparent actions and honest communication."
+			title: "Think in systems",
+			description: "We tackle big, messy challenges—like aggregating products across any retailer—and make the experience feel effortless. Collaboration is our default."
 		},
 		{
-			title: "Impact",
-			description: "Measuring our success by the positive change we create for our clients."
+			title: "Move with urgency",
+			description: "We believe speed and quality can coexist. Our team iterates quickly, learns fast, and actively seeks opportunities to grow. The bar is high, and that's how we like it."
+		},
+		{
+			title: "Own your impact",
+			description: "Each person here shapes the future of the platform. Whether you're writing code or writing copy, you'll see your work influence millions of people around the world."
 		}
 	];
 </script>
@@ -46,7 +50,7 @@
 />
 
 <!-- Our Culture Section -->
-<Culture {values} generating />
+<Culture {values} />
 
 <!-- StakeholderGrid Section -->
 <StakeholderGrid
@@ -99,8 +103,12 @@
 
 <!-- CTA Section -->
 <CallToAction
-	generating
-	title="Ready to collaborate?"
-	subtitle="Let's create something amazing"
-	description="Join the companies already leveraging our expertise to transform their digital presence and achieve their business goals."
+	title="Join the team transforming how millions give and receive gifts"
+	subtitle="Open roles →"
+	description="Listful is rebuilding the gift-giving experience from the ground up. Over 2 million people use our platform to organize their gift ideas and make celebrations simpler. We're on a mission to streamline how the world approaches gifting—$500 billion of it each year. Come work on a product used by millions and help write the foundation for a platform that powers celebrations around the world."
+	imageSrc="/generated/image-a-young-professional-smiling-warmly-sits.webp"
+	callsToAction={[
+		{ href: "/careers", label: "View open positions", variant: "primary" },
+		{ href: "/contact", label: "Get in touch", variant: "secondary" }
+	]}
 />
